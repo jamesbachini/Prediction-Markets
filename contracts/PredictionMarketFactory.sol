@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+import "./PredictionMarket.sol";
+
 contract PredictionMarketFactory {
 
     event MarketCreated(address indexed creator, address marketAddress, string description);
